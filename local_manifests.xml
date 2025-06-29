@@ -19,7 +19,8 @@
 
     <!-- Vendor -->
     <project path="vendor/google/camera" name="vendor_google_camera" remote="yaz-gitlab" revision="15" />
-    <project path="vendor/google/faceunlock" name="android_vendor_google_faceunlock" remote="derplos" revision="15.2" />
+    <project path="vendor/google/faceunlock" name="android_vendor_google_faceunlock" remote="yaz" revision="15.2" />
+    <project path="vendor/lineage" name="android_vendor_derpfest" remote="yaz" revision="15.2-pixel" />
     <project path="vendor/google/panther" name="proprietary_vendor_google_panther" remote="themuppets" revision="lineage-22.2" />
     <project path="vendor/google/cheetah" name="proprietary_vendor_google_cheetah" remote="themuppets" revision="lineage-22.2" />
     <project path="vendor/google/lynx" name="proprietary_vendor_google_lynx" remote="themuppets" revision="lineage-22.2" />
