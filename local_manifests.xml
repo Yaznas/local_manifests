@@ -5,7 +5,6 @@
     <remote name="los" fetch="https://github.com/LineageOS" />
     <remote name="yaz-gitlab" fetch="https://gitlab.com/yaznas" />
     <remote name="themuppets" fetch="https://github.com/TheMuppets" />
-    <remote name="v4a" fetch="https://github.com/TogoFire" />
 
     <!-- Device -->
     <project path="device/google/pantah" name="device_google_pantah" remote="yaz" revision="16"/>
@@ -21,8 +20,5 @@
     <project path="vendor/google/panther" name="proprietary_vendor_google_panther" remote="themuppets" revision="lineage-23.0" />
     <project path="vendor/google/cheetah" name="proprietary_vendor_google_cheetah" remote="themuppets" revision="lineage-23.0" />
     <project path="vendor/google/lynx" name="proprietary_vendor_google_lynx" remote="themuppets" revision="lineage-23.0" />
-
-    <!-- Packages -->
-    <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="v4a" revision="v4a" />
 
 </manifest>
