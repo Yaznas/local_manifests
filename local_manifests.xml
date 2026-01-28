@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote name="yaz" fetch="https://github.com/yaznas/" />
-    <remote name="los" fetch="https://github.com/LineageOS" />
-    <remote name="yaz-gitlab" fetch="https://gitlab.com/yaznas" />
-    <remote name="themuppets" fetch="https://github.com/TheMuppets" />
+    <!-- Remotes -->
+    <remote name="derpd" fetch="https://github.com/DerpFest-Devices" />
+    <remote name="v4a" fetch="https://github.com/TogoFire" />
+    <remote name="yaz" fetch="https://github.com/Yaznas" />
+    <remote name="yazc" fetch="https://codeberg.org/Yaznas" />
+    
 
     <!-- Device -->
-    <project path="device/google/pantah" name="device_google_pantah" remote="yaz" revision="16"/>
-    <project path="device/google/gs201" name="device_google_gs201" remote="yaz" revision="16"/>
-    <project path="device/google/pantah-kernels/" name="device_google_pantah-kernels_6.1" remote="yaz-gitlab" revision="16"/>
-    <project path="device/google/gs-common" name="android_device_google_gs-common" remote="los" revision="lineage-23.0"/>
-    <project path="device/google/lynx" name="device_google_lynx" remote="yaz" revision="16"/>
-    <project path="device/google/lynx-kernels/" remote="yaz-gitlab" name="device_google_lynx-kernels_6.1" revision="16" />
+    <project path="device/oneplus/lexus" name="device_oneplus_lexus" remote="yaz" revision="16.2"/>
+    <project path="device/oneplus/sm8650-common" name="device_oneplus_sm8650-common" remote="yaz" revision="16.2"/>
+
+    <!-- Kernel -->
+    <project path="kernel/oneplus/sm8650" name="kernel_oneplus_sm8650" remote="derpd" revision="16.2"/>
+    <project path="kernel/oneplus/sm8650-devicetrees" name="kernel_oneplus_sm8650-devicetrees" remote="derpd" revision="16.2"/>
+    <project path="kernel/oneplus/sm8650-modules" name="kernel_oneplus_sm8650-modules" remote="derpd" revision="16.2"/>
+
+    <!-- Hardware -->
+    <project path="hardware/oplus" name="hardware_oplus" remote="derpd" revision="16.2" />
 
     <!-- Vendor -->
-    <project path="vendor/google/camera" name="vendor_google_camera" remote="yaz-gitlab" revision="15" />
-    <project path="vendor/google/faceunlock" name="android_vendor_google_faceunlock" remote="yaz" revision="15.2" />
-    <project path="vendor/google/panther" name="proprietary_vendor_google_panther" remote="themuppets" revision="lineage-23.0" />
-    <project path="vendor/google/cheetah" name="proprietary_vendor_google_cheetah" remote="themuppets" revision="lineage-23.0" />
-    <project path="vendor/google/lynx" name="proprietary_vendor_google_lynx" remote="themuppets" revision="lineage-23.0" />
+    <project path="vendor/oneplus/lexus" name="proprietary_vendor_oneplus_lexus" remote="yazc" revision="16.2" />
+    <project path="vendor/oneplus/sm8650-common" name="proprietary_vendor_oneplus_sm8650-common" remote="derpd" revision="16.2" />
+
+    <!-- V4A -->
+    <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="v4a" revision="v4a" />
 
 </manifest>

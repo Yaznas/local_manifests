@@ -1,5 +1,5 @@
-# Local Manifest for Building Derpfest 16 for Pixel 7 Series
+# Local Manifest for Building Derpfest 16.2 for Oneplus Nord 5
 
 ## Sourceforge upload command
 
-scp init_boot.img boot.img dtbo.img vendor_boot.img vendor_kernel_boot.img DerpFest-v16.0-20251013-panther-Official-Stable.zip DerpFest-v16.0-20251013-panther-Official-Stable.zip.sha256sum $username@frs.sourceforge.net:/home/frs/p/yaz-a15-builds/derpfest-$device/$folder/
+scp boot.img dtbo.img init_boot.img recovery.img super_empty.img vbmeta.img vendor_boot.img DerpFest-v16.2-20251013-lexus-Official-Stable.zip DerpFest-v16.2-20251013-lexus-Official-Stable.zip.sha256sum $username@frs.sourceforge.net:/home/frs/p/yaz-a15-builds/derpfest-$device/$folder/
